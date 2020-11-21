@@ -70,6 +70,15 @@ const areas = [
             },
         ],
     },
+    {
+        title: 'Harburg',
+        communities: [
+            {
+                title: 'Pokemon Go Harburg',
+                links: [{ title: 'Website', href: 'https://www.play-hh.de/' }],
+            },
+        ],
+    },
 ]
 
 const App = () => (
@@ -106,11 +115,7 @@ const App = () => (
                             ))}
                         </Area>
                     ))}
-                    <Area title="Harburg">
-                        <Community title="Pokemon Go Harburg">
-                            <FancyLink title="Website" href="https://www.play-hh.de/" />
-                        </Community>
-                    </Area>
+
                     <Area title="Hamm/Horn/Billstedt/Mümmelmannsberg">
                         <Community title="PoGo-Gruppe Horn/Billstedt">
                             <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AhpfkkgMzboWIJMguxUulg" />

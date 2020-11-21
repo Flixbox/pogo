@@ -1,5 +1,5 @@
-import { Container, createMuiTheme, CssBaseline, Grid, Paper, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
-import { TwitterFeedCollection, FancyLink } from '.'
+import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
+import { TwitterFeedCollection, FancyLink, Community } from '.'
 
 const App = () => (
     <>
@@ -18,13 +18,12 @@ const App = () => (
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3">Altona</Typography>
-                        <Paper>
-                            <Typography variant="h4">Altona Raidgruppe</Typography>
+                        <Community title="Altona Raidgruppe">
                             <FancyLink title="Website" href="https://pogoaltona.de/" />
                             <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/talkpokemon" />
                             <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/joinchat/GfSxL0tmbHqtazBgsTSanQ" />
                             <FancyLink title="Telegram PvP" type="telegram" href="https://t.me/joinchat/IZ1tbBPlfzj8pXIKct0m8w" />
-                        </Paper>
+                        </Community>
                     </Grid>
                     <TwitterFeedCollection />
                 </Grid>

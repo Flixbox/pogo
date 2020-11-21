@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/pogo/static/js/main.4ddecbae.chunk.js",
-    "main.js.map": "/pogo/static/js/main.4ddecbae.chunk.js.map",
+    "main.js": "/pogo/static/js/main.ffee6807.chunk.js",
+    "main.js.map": "/pogo/static/js/main.ffee6807.chunk.js.map",
     "runtime-main.js": "/pogo/static/js/runtime-main.83578770.js",
     "runtime-main.js.map": "/pogo/static/js/runtime-main.83578770.js.map",
     "static/js/2.6756a7a7.chunk.js": "/pogo/static/js/2.6756a7a7.chunk.js",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.83578770.js",
     "static/js/2.6756a7a7.chunk.js",
-    "static/js/main.4ddecbae.chunk.js"
+    "static/js/main.ffee6807.chunk.js"
   ]
 }

@@ -57,6 +57,9 @@ const App = () => (
                             <FancyLink title="Telegram Smalltalk" type="telegram" href="https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ" />
                             <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/PoGORaidsBergedorf" />
                         </Community>
+                        <Community title="Mountain Village Raids">
+                            <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/2MXFOmdPKkfL12y5dfGShz" />
+                        </Community>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3">Harburg</Typography>

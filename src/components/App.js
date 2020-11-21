@@ -54,6 +54,22 @@ const areas = [
             },
         ],
     },
+    {
+        title: 'Bergedorf',
+        communities: [
+            {
+                title: 'PoGo Bergedorf',
+                links: [
+                    { title: 'Telegram Smalltalk', type: 'telegram', href: 'https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ' },
+                    { title: 'Telegram Raids', type: 'telegram', href: 'https://t.me/PoGORaidsBergedorf' },
+                ],
+            },
+            {
+                title: 'Mountain Village Raids',
+                links: [{ title: 'WhatsApp', type: 'whatsapp', href: 'https://chat.whatsapp.com/2MXFOmdPKkfL12y5dfGShz' }],
+            },
+        ],
+    },
 ]
 
 const App = () => (
@@ -90,16 +106,6 @@ const App = () => (
                             ))}
                         </Area>
                     ))}
-
-                    <Area title="Bergedorf">
-                        <Community title="PoGo Bergedorf">
-                            <FancyLink title="Telegram Smalltalk" type="telegram" href="https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ" />
-                            <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/PoGORaidsBergedorf" />
-                        </Community>
-                        <Community title="Mountain Village Raids">
-                            <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/2MXFOmdPKkfL12y5dfGShz" />
-                        </Community>
-                    </Area>
                     <Area title="Harburg">
                         <Community title="Pokemon Go Harburg">
                             <FancyLink title="Website" href="https://www.play-hh.de/" />

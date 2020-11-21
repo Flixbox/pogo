@@ -1,18 +1,10 @@
-import logo from './logo.svg'
-import './App.css'
+import { Container, CssBaseline } from '@material-ui/core'
 
-function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                yeet
-            </header>
-        </div>
-    )
-}
+const App = () => (
+    <Container>
+        <CssBaseline />
+        yeet
+    </Container>
+)
 
 export default App

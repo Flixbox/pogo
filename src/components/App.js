@@ -1,4 +1,4 @@
-import { Container, createMuiTheme, CssBaseline, Grid, Link, Paper, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
+import { Container, createMuiTheme, CssBaseline, Grid, Paper, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
 import { TwitterFeedCollection, FancyLink } from '.'
 
 const App = () => (

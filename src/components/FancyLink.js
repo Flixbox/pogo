@@ -1,4 +1,4 @@
-import { Box, Grid, Link, Paper, Typography } from '@material-ui/core'
+import { Box, Link } from '@material-ui/core'
 import html5 from 'super-tiny-icons/images/svg/html5.svg'
 import telegram from 'super-tiny-icons/images/svg/telegram.svg'
 

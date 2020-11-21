@@ -50,7 +50,7 @@ const App = () => (
                             <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AAAAAErSWbpPor6PU1E1jw" />
                         </Community>
                         <Community title="Altona-Eimsbüttel Grenzraider">
-                            <FancyLink title="Telegram" type="telegram" href="https://t.me/talkpokemon" />
+                            <FancyLink title="Telegram" type="telegram" href="" />
                         </Community>
                     </Grid>
                     <Grid item xs={12}>

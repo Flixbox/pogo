@@ -67,6 +67,12 @@ const App = () => (
                             <FancyLink title="Website" href="https://www.play-hh.de/" />
                         </Community>
                     </Grid>
+                    <Grid item xs={12}>
+                        <Typography variant="h3">Hamm/Horn/Billstedt/Mümmelmannsberg</Typography>
+                        <Community title="PoGo-Gruppe Horn/Billstedt">
+                            <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AhpfkkgMzboWIJMguxUulg" />
+                        </Community>
+                    </Grid>
                     <FeedCollection />
                     <Grid item xs={12}>
                         <Footer />

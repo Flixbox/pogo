@@ -48,6 +48,13 @@ const App = () => (
                         </Community>
                     </Grid>
                     <Grid item xs={12}>
+                        <Typography variant="h3">Bergedorf</Typography>
+                        <Community title="PoGo Bergedorf">
+                            <FancyLink title="Telegram Smalltalk" type="telegram" href="https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ" />
+                            <FancyLink title="Telegram Raids" type="telegram" href="t.me/PoGORaidsBergedorf" />
+                        </Community>
+                    </Grid>
+                    <Grid item xs={12}>
                         <Typography variant="h3">Eimsbüttel</Typography>
                         <Community title="Eimsbüttel Raids">
                             <FancyLink title="Telegram" type="telegram" href="" />

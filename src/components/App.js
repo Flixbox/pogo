@@ -1,6 +1,44 @@
 import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
 import { FeedCollection, FancyLink, Community, Footer, Area } from '.'
 
+const areas = [
+    {
+        title: 'Hamburg (all areas)',
+        communities: [
+            {
+                title: 'pkmngohh',
+                links: [
+                    {
+                        title: 'Slack',
+                        type: 'slack',
+                        href: 'https://bit.ly/38QBidi',
+                    },
+                ],
+            },
+            {
+                title: 'Pokemon Go Hamburg',
+                links: [
+                    {
+                        title: 'Discord',
+                        type: 'discord',
+                        href: 'https://discord.gg/aQEt6UE',
+                    },
+                ],
+            },
+            {
+                title: 'PoGo Raiden HH',
+                links: [
+                    {
+                        title: 'WhatsApp',
+                        type: 'whatsapp',
+                        href: 'https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS',
+                    },
+                ],
+            },
+        ],
+    },
+]
+
 const App = () => (
     <>
         <ThemeProvider
@@ -24,17 +62,17 @@ const App = () => (
                             Communities
                         </Typography>
                     </Grid>
-                    <Area title="Hamburg (all areas)">
-                        <Community title="pkmngohh">
-                            <FancyLink title="Slack" type="slack" href="https://bit.ly/38QBidi" />
-                        </Community>
-                        <Community title="Pokemon Go Hamburg">
-                            <FancyLink title="Discord" type="discord" href="https://discord.gg/aQEt6UE" />
-                        </Community>
-                        <Community title="PoGo Raiden HH">
-                            <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS" />
-                        </Community>
-                    </Area>
+                    {areas.map(area => (
+                        <Area title={area.title}>
+                            {area.communities.map(community => (
+                                <Community title={community.title}>
+                                    {community.links.map(link => (
+                                        <FancyLink {...link} />
+                                    ))}
+                                </Community>
+                            ))}
+                        </Area>
+                    ))}
                     <Area title="Hamburg-Nord">
                         <Community title="HB-Nord">
                             <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/joinchat/Flw5mUXyv9TwYTw9q_fT4Q" />

@@ -52,6 +52,26 @@ const areas = [
             },
         ],
     },
+    {
+        title: 'Barmbek',
+        communities: [
+            {
+                title: 'PoGo Barmbek',
+                links: [
+                    {
+                        title: 'PoGo Barmbek Raids',
+                        type: 'whatsapp',
+                        href: 'https://chat.whatsapp.com/JCaUkxVsJz5AdztgD4qk2I',
+                    },
+                    {
+                        title: 'PoGo Barmbek Talk',
+                        type: 'whatsapp',
+                        href: 'https://chat.whatsapp.com/GzP8ltIHXBy3lcynr4SY5a',
+                    },
+                ],
+            },
+        ],
+    },
 ]
 
 const App = () => (

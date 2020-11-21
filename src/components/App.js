@@ -31,6 +31,9 @@ const App = () => (
                                 href="https://join.slack.com/t/pkmngohh/shared_invite/zt-buv9exf8-Z8PYgk~Lywaa8GfLriu_5g"
                             />
                         </Community>
+                        <Community title="Pokemon Go Hamburg">
+                            <FancyLink title="Discord" type="discord" href="https://discord.gg/aQEt6UE" />
+                        </Community>
                         <Community title="PoGo Raiden HH">
                             <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS" />
                         </Community>
@@ -61,7 +64,7 @@ const App = () => (
                     </Grid>
                     <TwitterFeedCollection />
                     <Grid item xs={12}>
-                        <Footer/>
+                        <Footer />
                     </Grid>
                 </Grid>
             </Container>

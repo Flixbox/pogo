@@ -47,7 +47,7 @@ const App = () => (
                     <Grid item xs={12}>
                         <Typography variant="h3">Eimsbüttel</Typography>
                         <Community title="Eimsbüttel Raids">
-                            <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AAAAAErSWbpPor6PU1E1jw" />
+                            <FancyLink title="Telegram" type="telegram" href="" />
                         </Community>
                         <Community title="Altona-Eimsbüttel Grenzraider">
                             <FancyLink title="Telegram" type="telegram" href="" />

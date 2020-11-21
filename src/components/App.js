@@ -3,7 +3,16 @@ import { TwitterFeedCollection, FancyLink, Community } from '.'
 
 const App = () => (
     <>
-        <ThemeProvider theme={responsiveFontSizes(createMuiTheme())}>
+        <ThemeProvider
+            theme={responsiveFontSizes(
+                createMuiTheme({
+                    palette: {
+                        primary: { main: '#00bcd4' },
+                        type: 'dark',
+                    },
+                })
+            )}
+        >
             <CssBaseline />
             <Container>
                 <Grid container>

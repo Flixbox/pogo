@@ -1,4 +1,4 @@
-import { Box, Grid, Link, Typography, useTheme } from '@material-ui/core'
+import { Grid, Link, useTheme } from '@material-ui/core'
 import github from 'super-tiny-icons/images/svg/github.svg'
 
 const Footer = ({ title, children }) => {

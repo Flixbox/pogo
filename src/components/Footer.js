@@ -9,6 +9,10 @@ const Footer = ({ title, children }) => {
                 <img src={github} alt="" style={{ height: '20px', marginRight: theme.spacing(1) }} />
                 Repo
             </Link>
+            <Link href="https://github.com/Flixbox/pogo/issues">
+                <img src={github} alt="" style={{ height: '20px', marginRight: theme.spacing(1) }} />
+                Missing something? Create an issue!
+            </Link>
             Made by Katzdierubbel / @Flixbox
         </Box>
     )

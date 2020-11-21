@@ -37,6 +37,21 @@ const areas = [
             },
         ],
     },
+    {
+        title: 'Hamburg-Nord',
+        communities: [
+            {
+                title: 'HB-Nord',
+                links: [
+                    {
+                        title: 'Telegram Talk',
+                        type: 'telegram',
+                        href: 'https://t.me/joinchat/Flw5mUXyv9TwYTw9q_fT4Q',
+                    },
+                ],
+            },
+        ],
+    },
 ]
 
 const App = () => (
@@ -73,11 +88,7 @@ const App = () => (
                             ))}
                         </Area>
                     ))}
-                    <Area title="Hamburg-Nord">
-                        <Community title="HB-Nord">
-                            <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/joinchat/Flw5mUXyv9TwYTw9q_fT4Q" />
-                        </Community>
-                    </Area>
+
                     <Area title="Altona">
                         <Community title="Altona Raidgruppe">
                             <FancyLink title="Website" href="https://pogoaltona.de/" />

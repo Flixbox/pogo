@@ -27,11 +27,7 @@ const App = () => (
                     <Grid item xs={12}>
                         <Typography variant="h3">Hamburg (all areas)</Typography>
                         <Community title="pkmngohh">
-                            <FancyLink
-                                title="Slack"
-                                type="slack"
-                                href="https://join.slack.com/t/pkmngohh/shared_invite/zt-buv9exf8-Z8PYgk~Lywaa8GfLriu_5g"
-                            />
+                            <FancyLink title="Slack" type="slack" href="https://bit.ly/38QBidi" />
                         </Community>
                         <Community title="Pokemon Go Hamburg">
                             <FancyLink title="Discord" type="discord" href="https://discord.gg/aQEt6UE" />

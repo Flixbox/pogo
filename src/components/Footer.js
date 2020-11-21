@@ -9,7 +9,7 @@ const Footer = ({ title, children }) => {
                 <img src={github} alt="" style={{ height: '20px', marginRight: theme.spacing(1) }} />
                 Repo
             </Link>
-            Made by Katzdierubbel / Flixbox / Felix
+            Made by Katzdierubbel / @Flixbox
         </Box>
     )
 }

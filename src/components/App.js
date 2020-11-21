@@ -63,11 +63,11 @@ const App = () => (
                         </Typography>
                     </Grid>
                     {areas.map(area => (
-                        <Area title={area.title}>
+                        <Area title={area.title} key={area.title}>
                             {area.communities.map(community => (
-                                <Community title={community.title}>
+                                <Community title={community.title} key={community.title}>
                                     {community.links.map(link => (
-                                        <FancyLink {...link} />
+                                        <FancyLink {...link} key={link.href} />
                                     ))}
                                 </Community>
                             ))}

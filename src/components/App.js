@@ -20,7 +20,9 @@ const App = () => (
                         <Typography variant="h1">Pokemon Go Hamburg Info Page</Typography>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="h2">Communities</Typography>
+                        <Typography variant="h2" color="secondary">
+                            Communities
+                        </Typography>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3">Hamburg (all areas)</Typography>

@@ -31,6 +31,9 @@ const App = () => (
                                 href="https://join.slack.com/t/pkmngohh/shared_invite/zt-buv9exf8-Z8PYgk~Lywaa8GfLriu_5g"
                             />
                         </Community>
+                        <Community title="PoGo Raiden HH">
+                            <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS" />
+                        </Community>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3">Altona</Typography>

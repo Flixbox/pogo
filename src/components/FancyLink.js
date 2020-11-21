@@ -2,11 +2,13 @@ import { Box, Link, Typography, useTheme } from '@material-ui/core'
 import html5 from 'super-tiny-icons/images/svg/html5.svg'
 import telegram from 'super-tiny-icons/images/svg/telegram.svg'
 import slack from 'super-tiny-icons/images/svg/slack.svg'
+import whatsapp from 'super-tiny-icons/images/svg/whatsapp.svg'
 
 const icons = {
     default: html5,
     telegram,
     slack,
+    whatsapp,
 }
 
 const FancyLink = ({ title, type = 'default', ...props }) => {

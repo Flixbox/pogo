@@ -15,7 +15,7 @@ const FeedCollection = () => (
         </Grid>
         <Grid container item xs={12}>
             {feeds.map(screenName => (
-                <Grid item xs={12} md={3} key={screenName}>
+                <Grid item xs={12} sm={6} md={3} key={screenName}>
                     <Timeline
                         dataSource={{
                             sourceType: 'profile',

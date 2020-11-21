@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.js": "/pogo/static/js/main.487952b5.chunk.js",
-    "main.js.map": "/pogo/static/js/main.487952b5.chunk.js.map",
-    "runtime-main.js": "/pogo/static/js/runtime-main.ac7bd2f8.js",
-    "runtime-main.js.map": "/pogo/static/js/runtime-main.ac7bd2f8.js.map",
-    "static/js/2.a75128b2.chunk.js": "/pogo/static/js/2.a75128b2.chunk.js",
-    "static/js/2.a75128b2.chunk.js.map": "/pogo/static/js/2.a75128b2.chunk.js.map",
-    "static/js/3.bf431fa2.chunk.js": "/pogo/static/js/3.bf431fa2.chunk.js",
-    "static/js/3.bf431fa2.chunk.js.map": "/pogo/static/js/3.bf431fa2.chunk.js.map",
+    "main.js": "/pogo/static/js/main.f3748c3f.chunk.js",
+    "main.js.map": "/pogo/static/js/main.f3748c3f.chunk.js.map",
+    "runtime-main.js": "/pogo/static/js/runtime-main.a47d35e9.js",
+    "runtime-main.js.map": "/pogo/static/js/runtime-main.a47d35e9.js.map",
+    "static/js/2.a4bc0b5a.chunk.js": "/pogo/static/js/2.a4bc0b5a.chunk.js",
+    "static/js/2.a4bc0b5a.chunk.js.map": "/pogo/static/js/2.a4bc0b5a.chunk.js.map",
+    "static/js/3.1eda18af.chunk.js": "/pogo/static/js/3.1eda18af.chunk.js",
+    "static/js/3.1eda18af.chunk.js.map": "/pogo/static/js/3.1eda18af.chunk.js.map",
     "index.html": "/pogo/index.html",
-    "static/js/2.a75128b2.chunk.js.LICENSE.txt": "/pogo/static/js/2.a75128b2.chunk.js.LICENSE.txt"
+    "static/js/2.a4bc0b5a.chunk.js.LICENSE.txt": "/pogo/static/js/2.a4bc0b5a.chunk.js.LICENSE.txt",
+    "static/media/html5.svg": "/pogo/static/media/html5.84c6adac.svg",
+    "static/media/telegram.svg": "/pogo/static/media/telegram.da27cc00.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac7bd2f8.js",
-    "static/js/2.a75128b2.chunk.js",
-    "static/js/main.487952b5.chunk.js"
+    "static/js/runtime-main.a47d35e9.js",
+    "static/js/2.a4bc0b5a.chunk.js",
+    "static/js/main.f3748c3f.chunk.js"
   ]
 }

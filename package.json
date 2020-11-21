@@ -2,7 +2,7 @@
     "name": "wham",
     "version": "0.1.0",
     "private": true,
-    "homepage": "/wham",
+    "homepage": "/pogo",
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@react-hook/window-size": "^3.0.7",

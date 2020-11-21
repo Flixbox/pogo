@@ -17,6 +17,15 @@ const areas = [
         ],
     },
     {
+        title: 'Hamburg-Innenstadt',
+        communities: [
+            {
+                title: 'Raid Innenstadt Hamburg',
+                links: [{ title: 'Line', type: 'line', href: 'https://line.me/R/ti/g/0mL63T4EuT' }],
+            },
+        ],
+    },
+    {
         title: 'Hamburg-Nord',
         communities: [
             {

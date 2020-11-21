@@ -1,6 +1,6 @@
 import { Box, Paper, Typography } from '@material-ui/core'
 
-const FancyLink = ({ title, children }) => (
+const Community = ({ title, children }) => (
     <Box mt={1}>
         <Paper>
             <Box p={2}>
@@ -11,4 +11,4 @@ const FancyLink = ({ title, children }) => (
     </Box>
 )
 
-export default FancyLink
+export default Community

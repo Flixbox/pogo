@@ -1,5 +1,5 @@
 import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
-import { FeedCollection, FancyLink, Community, Footer } from '.'
+import { FeedCollection, FancyLink, Community, Footer, Area } from '.'
 
 const App = () => (
     <>
@@ -24,8 +24,7 @@ const App = () => (
                             Communities
                         </Typography>
                     </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Hamburg (all areas)</Typography>
+                    <Area title="Hamburg (all areas)">
                         <Community title="pkmngohh">
                             <FancyLink title="Slack" type="slack" href="https://bit.ly/38QBidi" />
                         </Community>
@@ -35,24 +34,21 @@ const App = () => (
                         <Community title="PoGo Raiden HH">
                             <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS" />
                         </Community>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Hamburg-Nord</Typography>
+                    </Area>
+                    <Area title="Hamburg-Nord">
                         <Community title="HB-Nord">
                             <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/joinchat/Flw5mUXyv9TwYTw9q_fT4Q" />
                         </Community>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Altona</Typography>
+                    </Area>
+                    <Area title="Altona">
                         <Community title="Altona Raidgruppe">
                             <FancyLink title="Website" href="https://pogoaltona.de/" />
                             <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/talkpokemon" />
                             <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/joinchat/GfSxL0tmbHqtazBgsTSanQ" />
                             <FancyLink title="Telegram PvP" type="telegram" href="https://t.me/joinchat/IZ1tbBPlfzj8pXIKct0m8w" />
                         </Community>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Bergedorf</Typography>
+                    </Area>
+                    <Area title="Bergedorf">
                         <Community title="PoGo Bergedorf">
                             <FancyLink title="Telegram Smalltalk" type="telegram" href="https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ" />
                             <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/PoGORaidsBergedorf" />
@@ -60,19 +56,17 @@ const App = () => (
                         <Community title="Mountain Village Raids">
                             <FancyLink title="WhatsApp" type="whatsapp" href="https://chat.whatsapp.com/2MXFOmdPKkfL12y5dfGShz" />
                         </Community>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Harburg</Typography>
+                    </Area>
+                    <Area title="Harburg">
                         <Community title="Pokemon Go Harburg">
                             <FancyLink title="Website" href="https://www.play-hh.de/" />
                         </Community>
-                    </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h3">Hamm/Horn/Billstedt/Mümmelmannsberg</Typography>
+                    </Area>
+                    <Area title="Hamm/Horn/Billstedt/Mümmelmannsberg">
                         <Community title="PoGo-Gruppe Horn/Billstedt">
                             <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AhpfkkgMzboWIJMguxUulg" />
                         </Community>
-                    </Grid>
+                    </Area>
                     <FeedCollection />
                     <Grid item xs={12}>
                         <Footer />

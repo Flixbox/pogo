@@ -1,4 +1,4 @@
-const areas =  [
+const areas = [
     {
         title: 'Hamburg (all areas)',
         communities: [
@@ -73,6 +73,15 @@ const areas =  [
             {
                 title: 'Pokemon Go Harburg',
                 links: [{ title: 'Website', href: 'https://www.play-hh.de/' }],
+            },
+        ],
+    },
+    {
+        title: 'Hamm/Horn/Billstedt/Mümmelmannsberg',
+        communities: [
+            {
+                title: 'PoGo-Gruppe Horn/Billstedt',
+                links: [{ title: 'Telegram', type: 'telegram', href: 'https://t.me/joinchat/AhpfkkgMzboWIJMguxUulg' }],
             },
         ],
     },

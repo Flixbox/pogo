@@ -25,6 +25,7 @@ const App = () => (
                             Communities
                         </Typography>
                     </Grid>
+
                     {communityData.map(area => (
                         <Area title={area.title} key={area.title}>
                             {area.communities.map(community => (
@@ -37,11 +38,6 @@ const App = () => (
                         </Area>
                     ))}
 
-                    <Area title="Hamm/Horn/Billstedt/Mümmelmannsberg">
-                        <Community title="PoGo-Gruppe Horn/Billstedt">
-                            <FancyLink title="Telegram" type="telegram" href="https://t.me/joinchat/AhpfkkgMzboWIJMguxUulg" />
-                        </Community>
-                    </Area>
                     <FeedCollection />
                     <Grid item xs={12}>
                         <Footer />

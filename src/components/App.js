@@ -1,4 +1,4 @@
-import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
+import { Container, createMuiTheme, CssBaseline, Grid, Link, Paper, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
 import { TwitterFeedCollection } from '.'
 
 const App = () => (
@@ -18,6 +18,9 @@ const App = () => (
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3">Altona</Typography>
+                        <Paper>
+                            <Link href="https://pogoaltona.de/">Website Altona Raidgruppe</Link>
+                        </Paper>
                     </Grid>
                     <TwitterFeedCollection />
                 </Grid>

@@ -1,5 +1,5 @@
 import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
-import { TwitterFeedCollection, FancyLink, Community } from '.'
+import { TwitterFeedCollection, FancyLink, Community, Footer } from '.'
 
 const App = () => (
     <>
@@ -60,6 +60,9 @@ const App = () => (
                         </Community>
                     </Grid>
                     <TwitterFeedCollection />
+                    <Grid item xs={12}>
+                        <Footer/>
+                    </Grid>
                 </Grid>
             </Container>
         </ThemeProvider>

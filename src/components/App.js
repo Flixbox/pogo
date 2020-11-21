@@ -21,7 +21,9 @@ const App = () => (
                         <Paper>
                             <Typography variant="h4">Altona Raidgruppe</Typography>
                             <FancyLink title="Website" href="https://pogoaltona.de/" />
-                            <FancyLink title="Telegram" href="https://pogoaltona.de/" />
+                            <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/talkpokemon" />
+                            <FancyLink title="Telegram Raids" type="telegram" href="https://t.me/joinchat/GfSxL0tmbHqtazBgsTSanQ" />
+                            <FancyLink title="Telegram PvP" type="telegram" href="https://t.me/joinchat/IZ1tbBPlfzj8pXIKct0m8w" />
                         </Paper>
                     </Grid>
                     <TwitterFeedCollection />

@@ -1,4 +1,4 @@
-import { Box, Link, Typography, useTheme } from '@material-ui/core'
+import { Link, Typography, useTheme } from '@material-ui/core'
 import html5 from 'super-tiny-icons/images/svg/html5.svg'
 import telegram from 'super-tiny-icons/images/svg/telegram.svg'
 import slack from 'super-tiny-icons/images/svg/slack.svg'
@@ -15,11 +15,9 @@ const FancyLink = ({ title, type = 'default', ...props }) => {
     const theme = useTheme()
     return (
         <Typography>
-            <Link variant="body1" {...props} style={{ textAlign: 'center' }}>
-                <Box display="flex" alignItems="center">
-                    <img src={icons[type]} alt="" style={{ height: '20px', marginRight: theme.spacing(1) }} />
-                    {title}
-                </Box>
+            <Link variant="body1" {...props} style={{ textAlign: 'center', display: 'flex', alignItems: 'center' }}>
+                <img src={icons[type]} alt="" style={{ height: '20px', marginRight: theme.spacing(1) }} />
+                {title}
             </Link>
         </Typography>
     )

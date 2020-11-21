@@ -59,15 +59,6 @@ const App = () => (
                         </Community>
                     </Grid>
                     <Grid item xs={12}>
-                        <Typography variant="h3">Eimsbüttel</Typography>
-                        <Community title="Eimsbüttel Raids">
-                            <FancyLink title="Telegram" type="telegram" href="" />
-                        </Community>
-                        <Community title="Altona-Eimsbüttel Grenzraider">
-                            <FancyLink title="Telegram" type="telegram" href="" />
-                        </Community>
-                    </Grid>
-                    <Grid item xs={12}>
                         <Typography variant="h3">Harburg</Typography>
                         <Community title="Pokemon Go Harburg">
                             <FancyLink title="Website" href="https://www.play-hh.de/" />

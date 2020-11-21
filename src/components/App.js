@@ -1,5 +1,5 @@
 import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
-import { TwitterFeedCollection, FancyLink, Community, Footer } from '.'
+import { FeedCollection, FancyLink, Community, Footer } from '.'
 
 const App = () => (
     <>
@@ -41,6 +41,12 @@ const App = () => (
                         </Community>
                     </Grid>
                     <Grid item xs={12}>
+                        <Typography variant="h3">Hamburg-Nord</Typography>
+                        <Community title="HB-Nord">
+                            <FancyLink title="Telegram Talk" type="telegram" href="https://t.me/joinchat/Flw5mUXyv9TwYTw9q_fT4Q" />
+                        </Community>
+                    </Grid>
+                    <Grid item xs={12}>
                         <Typography variant="h3">Altona</Typography>
                         <Community title="Altona Raidgruppe">
                             <FancyLink title="Website" href="https://pogoaltona.de/" />
@@ -71,7 +77,7 @@ const App = () => (
                             <FancyLink title="Website" href="https://www.play-hh.de/" />
                         </Community>
                     </Grid>
-                    <TwitterFeedCollection />
+                    <FeedCollection />
                     <Grid item xs={12}>
                         <Footer />
                     </Grid>

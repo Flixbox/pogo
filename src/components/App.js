@@ -15,7 +15,7 @@ const App = () => (
         >
             <CssBaseline />
             <Container>
-                <Grid container>
+                <Grid container spacing={3}>
                     <Grid item xs={12}>
                         <Typography variant="h1">Pokemon Go Hamburg Info Page</Typography>
                     </Grid>

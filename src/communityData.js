@@ -39,6 +39,15 @@ const areas = [
         ],
     },
     {
+        title: 'Hamburg-West',
+        communities: [
+            {
+                title: 'HB-West / Lurup Osdorf Flottbek',
+                links: [{ title: 'Telegram Raids', type: 'telegram', href: 'https://t.me/raidshamburgwest' }],
+            },
+        ],
+    },
+    {
         title: 'Altona',
         communities: [
             {

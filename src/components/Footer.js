@@ -18,7 +18,7 @@ const Footer = ({ title, children }) => {
                 </Link>
             </Grid>
             <Grid item xs={12} md={4}>
-                Made by Katzdierubbel / @Flixbox
+                Made by Katzdierubbel / @Flixkatz
             </Grid>
         </Grid>
     )

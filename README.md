@@ -1,6 +1,6 @@
-# Pokemon Go Communities - Hamburg
+# Pokémon Go Communities - Hamburg
 
-A simple info page on local Pokemon communities.
+A simple info page on local Pokémon communities.
 
 [Live site](https://flixbox.github.io/pogo/)
 

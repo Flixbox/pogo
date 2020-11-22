@@ -1,4 +1,4 @@
-import { Container, createMuiTheme, CssBaseline, Grid, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
+import { Container, createMuiTheme, CssBaseline, Grid, Link, responsiveFontSizes, ThemeProvider, Typography } from '@material-ui/core'
 import { FeedCollection, FancyLink, Community, Footer, Area } from '.'
 import communityData from '../communityData'
 
@@ -18,7 +18,10 @@ const App = () => (
             <Container>
                 <Grid container spacing={3}>
                     <Grid item xs={12}>
-                        <Typography variant="h1">Pokemon Go Hamburg Info Page</Typography>
+                        <Typography variant="h1">Pokémon Go Hamburg Info Page</Typography>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Link href="https://www.pogode.de/#list">Overview of German Pokémon Go communities</Link>
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h2" color="secondary">

@@ -11,7 +11,7 @@ const FeedCollection = () => (
         </Typography>
         <Grid item xs={12}>
             <FancyLink title="Pokefans.Net" type="telegram" href="https://t.me/pokefansnet_go" />
-            <FancyLink title="Pokemon Go - News" type="telegram" href="https://t.me/DHPOGONEWS" />
+            <FancyLink title="Pokémon Go - News" type="telegram" href="https://t.me/DHPOGONEWS" />
         </Grid>
         <Grid container item xs={12}>
             {feeds.map(screenName => (

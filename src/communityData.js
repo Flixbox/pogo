@@ -7,7 +7,7 @@ const areas = [
                 links: [{ title: 'Slack', type: 'slack', href: 'https://bit.ly/38QBidi' }],
             },
             {
-                title: 'Pokemon Go Hamburg',
+                title: 'Pokémon Go Hamburg',
                 links: [{ title: 'Discord', type: 'discord', href: 'https://discord.gg/aQEt6UE' }],
             },
             {
@@ -15,7 +15,7 @@ const areas = [
                 links: [{ title: 'WhatsApp', type: 'whatsapp', href: 'https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS' }],
             },
             {
-                title: 'Pokemon Go | Hamburg | Raids',
+                title: 'Pokémon Go | Hamburg | Raids',
                 links: [{ title: 'Facebook', type: 'facebook', href: 'https://www.facebook.com/groups/311692199279266' }],
             },
         ],
@@ -102,7 +102,7 @@ const areas = [
         title: 'Harburg',
         communities: [
             {
-                title: 'Pokemon Go Harburg',
+                title: 'Pokémon Go Harburg',
                 links: [{ title: 'Website', href: 'https://www.play-hh.de/' }],
             },
         ],

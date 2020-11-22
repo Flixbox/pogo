@@ -77,6 +77,15 @@ const areas = [
         ],
     },
     {
+        title: 'Eimsbüttel',
+        communities: [
+            {
+                title: 'PoGo Eimsbüttel/Schanze',
+                links: [{ title: 'WhatsApp', type: 'whatsapp', href: 'https://chat.whatsapp.com/G0dNgWGxp7eGuozlYezfQb' }],
+            },
+        ],
+    },
+    {
         title: 'Hamm/Horn/Billstedt/Mümmelmannsberg',
         communities: [
             {

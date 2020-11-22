@@ -5,6 +5,7 @@ import slack from 'super-tiny-icons/images/svg/slack.svg'
 import whatsapp from 'super-tiny-icons/images/svg/whatsapp.svg'
 import discord from 'super-tiny-icons/images/svg/discord.svg'
 import line from 'super-tiny-icons/images/svg/line.svg'
+import facebook from 'super-tiny-icons/images/svg/facebook.svg'
 
 const icons = {
     default: html5,
@@ -13,6 +14,7 @@ const icons = {
     whatsapp,
     discord,
     line,
+    facebook,
 }
 
 const FancyLink = ({ title, type = 'default', ...props }) => {

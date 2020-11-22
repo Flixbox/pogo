@@ -14,6 +14,10 @@ const areas = [
                 title: 'PoGo Raiden HH',
                 links: [{ title: 'WhatsApp', type: 'whatsapp', href: 'https://chat.whatsapp.com/FGMI2akTSXE27QsDVjWCJS' }],
             },
+            {
+                title: 'Pokemon Go | Hamburg | Raids',
+                links: [{ title: 'Facebook', type: 'facebook', href: 'https://www.facebook.com/groups/311692199279266' }],
+            },
         ],
     },
     {

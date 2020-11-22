@@ -70,6 +70,7 @@ const areas = [
             {
                 title: 'PoGo Bergedorf',
                 links: [
+                    { title: 'Website', href: 'https://pogo-bergedorf.de/' },
                     { title: 'Telegram Smalltalk', type: 'telegram', href: 'https://t.me/joinchat/GQAr8hA7GgQE6vVAOFBtQQ' },
                     { title: 'Telegram Raids', type: 'telegram', href: 'https://t.me/PoGORaidsBergedorf' },
                 ],

@@ -1,5 +1,7 @@
 # Pokémon Go Communities - Hamburg
 
+[![Build and Deploy](https://github.com/Flixbox/pogo/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Flixbox/pogo/actions/workflows/gh-pages.yml)
+
 A simple info page on local Pokémon communities.
 
 [Live site](https://flixbox.github.io/pogo/)
